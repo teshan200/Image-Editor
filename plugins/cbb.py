@@ -110,7 +110,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("ABOUT", callback_data="about_data"),
                 ],
                 [
-                   
+                   InlineKeyboardButton("Feedbacks", url="t.me/teshan_the_great")
                 ],
             ]
         )
@@ -127,7 +127,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("BACK", callback_data="start_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data"),
                 ],
-                
+                InlineKeyboardButton("Feedbacks", url="t.me/teshan_the_great")
             ]
         )
         await query.message.edit_text(
@@ -141,7 +141,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("START", callback_data="start_data"),
                 ],
                 [
-
+InlineKeyboardButton("Feedbacks", url="t.me/teshan_the_great")
                 ],
             ]
         )

@@ -17,7 +17,7 @@ async def start(client: Client, message: Message):
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
                     ],
                     [
-                        
+                        InlineKeyboardButton("Feedbacks", url="t.me/teshan_the_great")
                     ],
                 ]
             ),
@@ -40,7 +40,7 @@ async def help(client, message):
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
                     ],
                     [
-                    
+                    InlineKeyboardButton("Feedbacks", url="t.me/teshan_the_great")
                     ],
                 ]
             ),
@@ -63,7 +63,7 @@ async def about(client, message):
                         InlineKeyboardButton("START", callback_data="start_data"),
                     ],
                     [
-                        
+                        InlineKeyboardButton("Feedbacks", url="t.me/teshan_the_great")
                     ],
                 ]
             ),
