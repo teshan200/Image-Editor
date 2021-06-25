@@ -143,9 +143,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("START", callback_data="start_data"),
                 ],
                 [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
-                    )
+
                 ],
             ]
         )
